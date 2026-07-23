@@ -1,7 +1,7 @@
 // waf to take any digit (0-9) and return its in word
 // 0-one
 // 5-five
-function digitToWords(digit) {
+function digitToWords = (digit)=> {
   const word = [
     "zero",
     "one",
@@ -16,3 +16,6 @@ function digitToWords(digit) {
   ];
   return words[digit];
 }
+console.log(toWords(5));
+console.log(toWords(3));
+console.log(toWords(6));
