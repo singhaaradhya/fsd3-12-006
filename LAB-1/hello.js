@@ -11,7 +11,7 @@ const add =(a,b) =>{
 const add2 = (a,b) =>{
     return a+b;
 };
-const add2 =(a,b) =>a+b;
+const add2 =(a,b) =>(a+b);
 console.log(sum(20,10));
 console.log(add(20,10));
 console.log(add(20,10));
@@ -22,4 +22,6 @@ console.log(add(20,10));
 function digitToWords(digit){
     const word = ["zero","one","two","three","four","five","six","seven","eight","nine"];
     return words[digit];
-}
+    }
+// CSS(bootstrap,tailwind)
+// backend(node.js,springboot,fastapi,django,PHP,)
