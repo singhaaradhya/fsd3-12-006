@@ -1,7 +1,7 @@
 // waf to take any digit (0-9) and return its in word
 // 0-one
 // 5-five
-function digitToWords = (digit)=> {
+const digitToWord = (digit)=> {
   const word = [
     "zero",
     "one",
