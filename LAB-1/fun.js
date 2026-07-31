@@ -1,21 +1,22 @@
-// waf to take any digit (0-9) and return its in word
-// 0-one
-// 5-five
-const digitToWord = (digit)=> {
-  const word = [
-    "zero",
-    "one",
-    "two",
-    "three",
-    "four",
-    "five",
-    "six",
-    "seven",
-    "eight",
-    "nine",
-  ];
-  return words[digit];
+const f1 = () =>{
+    console.log("F1");
+
+};
+const f2 = () =>{
+    console.log("F2");
+};
+const f3 = () =>{
+    console.log("F3");
+};
+
+function main(){
+    console.log("main");
+    setTimeout(f1, 1000);
+    setTimeout(f2, 700);
+    // setInterval(f1,1000);
+
+    // setImmediate(f2);
+    process.nextTick(f3);
+    console.log("end");
 }
-console.log(toWords(5));
-console.log(toWords(3));
-console.log(toWords(6));
+main(); 
