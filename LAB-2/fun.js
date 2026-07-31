@@ -11,9 +11,12 @@ const f3 = () =>{
 
 function main(){
     console.log("main");
-    f1();
-    f2();
-    f3();
+    setTimeout(f1, 1000);
+    setTimeout(f2, 700);
+    // setInterval(f1,1000);
+
+    // setImmediate(f2);
+    process.nextTick(f3);
     console.log("end");
 }
 main(); 
