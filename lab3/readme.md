@@ -11,7 +11,7 @@ one of the most important module in node.js originally designed for building sca
 * hhtp - hyper text transfer protocol
 * html- hyper text markup language
 
-# http status codes
+# http status codes -> res. WriteHead( ), res. setHeader( )
 
 - 200 -> OK
 - 201 -> Created 
@@ -20,3 +20,21 @@ one of the most important module in node.js originally designed for building sca
 - 403 -> forbidden
 - 404 -> Not Found
 - 500 -> Internal Server Error
+
+## server can send to the client 
+1. html contents ->  prg2, prg3
+2. html file -> prg5
+3. json data -> prg4
+4. plain file
+5. js file
+6. any file to download 
+7. etc
+
+## Type of informatrion 
+1. text/html -> for html file/contents
+2. text/json -> for json data
+3. text/css -> for css file/contents
+4. application -> for files 
+5. text/plain -> for plain text file
+
+### Note: .gitignor -> this files contains the list of files/folder that is not added to git , these files/folder will not push on GitHub .
