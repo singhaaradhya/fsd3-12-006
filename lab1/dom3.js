@@ -10,3 +10,4 @@ button.emit("click", "Aaradhya");
 button.emit("click", "TAP ROAD");
 button.emit("click", "madhaneaaaa");
 button.emit("click");
+console.log()

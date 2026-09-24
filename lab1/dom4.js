@@ -9,3 +9,4 @@ form.on("submit",(uname,password)=>{
 });
 
 form.emit("submit", "abc@abd.com", "12376828");
+console.log()
