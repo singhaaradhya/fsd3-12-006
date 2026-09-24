@@ -9,3 +9,4 @@ button.on("click", () => {
 });
 
 button.emit("click");
+console.log()
