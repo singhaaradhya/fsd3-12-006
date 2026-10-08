@@ -37,3 +37,8 @@ cd backend
 // this line must be last line 
 app.listen(4444, ()=> console.log("prg1 is running at 4444"));
  ```
+
+# Static import 
+- In express we can add any static html pages with the help of express.static method . 
+ Express supports midlleware, when we have to execute some functions before server execution then we use middleware,  
+ - App.use always applied to insert any middleware (when we worte app.use , this refres to middleware )
